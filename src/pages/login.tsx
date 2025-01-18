@@ -36,7 +36,7 @@ const LoginForm: React.FC = () => {
 
     setTimeout(() => {
       setIsLoading(false); // Hide loading screen
-      if (email === validEmail && password === validPassword) {
+      if (email.toLowerCase() === validEmail.toLowerCase() && password === validPassword){
         setPopupMessage(`Welcome Back, ${userName}!`);
         setPopupType("success");
         setShowPopup(true);
