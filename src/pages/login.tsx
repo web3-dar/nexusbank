@@ -16,7 +16,7 @@ const LoginForm: React.FC = () => {
   const navigate = useNavigate();
 
   const validEmail = "Williamhoke@gmail.com";
-  const validPassword = "williamhk";
+  const validPassword = "wills233";
   const userName = "William Hoke";
   const userImage = logo;
 
